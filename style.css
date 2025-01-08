@@ -1,0 +1,125 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  max-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+@font-face {
+  font-family: "Norse";
+  src: url(Norse-Bold.otf) format("opentype");
+  font-weight: 800;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+a {
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: max(40%, 850px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* odin logo */
+.container-logo {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 150px;
+}
+
+.placeholder {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  padding: 10px;
+}
+
+.placeholder img {
+  height: 80%;
+}
+
+.placeholder span {
+  font-family: "Norse", sans-serif;
+  font-size: 5rem;
+}
+
+.image-description {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+/* main form */
+.main-form {
+  background-color: blanchedalmond;
+}
