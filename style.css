@@ -125,6 +125,7 @@ a {
   text-align: center;
   margin-bottom: 0.9375em;
 }
+
 /* main form */
 header,
 .form,
@@ -134,13 +135,11 @@ header,
 }
 
 header {
-  /* height: 18.75em; */
   padding: 3.125em;
   background-color: #fafafa;
 }
 
 .heading-content {
-  /* width: 48.4375em; */
   margin-top: 2.1875em;
 }
 
