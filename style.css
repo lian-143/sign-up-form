@@ -157,12 +157,15 @@ header {
 }
 
 .form > h1 {
-  margin-bottom: 15px;
+  margin-bottom: 0.9375em;
 }
 
 .form-details {
-  /* border: 1px solid violet; */
-  width: 500px;
+  width: 34.375rem;
+}
+
+input {
+  width: 13.75em;
 }
 
 label {
@@ -172,28 +175,37 @@ label {
 }
 
 label[for="last_name"] {
-  margin-left: 180px;
+  margin-left: 220px;
 }
 
 input[id="last_name"],
 input[id="tel"],
 input[class="confirm_password"] {
-  margin-left: 88px;
+  margin-left: 5.5em;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="password"] {
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 }
 
 label[for="tel"] {
-  margin-left: 225px;
+  margin-left: 262px;
 }
 
 label[id="confirm_password"] {
-  margin-left: 190px;
+  margin-left: 227px;
+}
+
+/* form validation */
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid:required {
+  border: 1px solid red;
 }
 
 /* third section */
@@ -208,7 +220,7 @@ input[type="submit"] {
   background-color: #596d48;
   color: #fff;
   padding: 14px 40px;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 input[type="submit"]:hover {
